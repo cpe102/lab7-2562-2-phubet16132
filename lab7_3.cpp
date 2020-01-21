@@ -17,13 +17,17 @@ int main(){
 		cin>>tall;
 			if(tall<160){
 				status="UNFRIEND";
+				cout<<"your status :" << status;
+				return 0;
 			}
 			else if(tall<175){
 				status="FRIEND";
+				cout<<"your status :" << status;
+				return 0;
 			}
 			cout<<"How mush money do you have ? : ";
 			cin>>money;
-				if(money>690000000){
+				if(money>69000000){
 					status="MARRIED";
 				}
 				else{
